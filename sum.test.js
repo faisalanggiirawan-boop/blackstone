@@ -22,4 +22,7 @@ describe('multiply', () => {
   test('handles zero', () => {
     expect(multiply(5, 0)).toBe(0);
   });
+   test('this will fail', () => {
+    expect(sum(1, 1)).toBe(999); // sengaja salah!
+  });
 });
